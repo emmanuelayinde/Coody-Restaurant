@@ -2,18 +2,26 @@ package controllers
 
 import "github.com/gin-gonic/gin"
 
-func SignUp(c *gin.Context) *gin.HandlerFunc {
+func SignUp() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
+	}
 }
 
-func SignIn(c *gin.Context) *gin.HandlerFunc {
+func SignIn() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
+	}
 }
 
-func ForgetPassword(c *gin.Context) *gin.HandlerFunc {
+func ForgetPassword() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
+	}
 }
 
-func ResetPassword(c *gin.Context) *gin.HandlerFunc {
+func ResetPassword() gin.HandlerFunc {
+	return func(c *gin.Context) {
 
+	}
 }
